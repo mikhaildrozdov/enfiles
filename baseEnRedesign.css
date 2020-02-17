@@ -1,0 +1,235 @@
+html {
+    font-size: 18px;
+    display: none;
+    min-height: 100%;
+    height: 1px;
+}
+
+body {
+    min-height: 100%;
+    height: 1px;
+    background: url(http://d1.endata.cx/data/games/66017/back+full.png) repeat; #fff;
+    color: #555555;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #dc3545;
+}
+
+.content {
+    min-height: 100%;
+    /*background: url(http://d1.endata.cx/data/games/58774/header_BAT.png) center top no-repeat, url(http://d1.endata.cx/data/games/58774/footer_BAT.png) center bottom no-repeat, #77cbe5;*/
+    /*background-size: initial;*/
+}
+
+.your-clock.flip-clock-wrapper {
+    width: 328px;
+    margin-top: 0;
+    height: auto;
+    margin: 0 auto;
+}
+
+.your-clock.flip-clock-wrapper ul {
+    width: 30px;
+    height: 45px;
+    margin: 4px;
+}
+
+.your-clock.flip-clock-wrapper ul li a div div.inn {
+    font-size: 35px;
+}
+
+.your-clock.flip-clock-wrapper ul li {
+    line-height: 45px;
+}
+
+.your-clock .flip-clock-divider {
+    height: 54px;
+}
+
+.custom-button {
+    background: url(http://d1.endata.cx/data/games/58774/button.png) -2px top no-repeat;
+    height: 37px;
+    width: 200px;
+    line-height: 36px;
+    vertical-align: middle;
+    background-size: contain;
+    cursor: pointer;
+    padding-left: 7px;
+}
+
+.custom-button:hover, .custom-button:active, .custom-button.active {
+    background-image: url(http://cdn.endata.cx/data/games/58774/button_pressed.png);
+}
+
+#team-identifier {
+    height: 40px;
+    margin-bottom: 15px;
+    padding: 7px 10px;
+}
+
+#team-identifier span {
+    margin-right: 10px;
+}
+
+#team-identifier.small {
+    height: 20px;
+}
+
+.navbar {
+    /*background-color: #F58220;*/
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.6);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(255,255,255,.8);
+}
+
+.navbar-dark .navbar-nav .nav-link.completed {
+    font-weight: bold;
+    color: #d4edda;
+}
+
+.navbar-dark .navbar-nav .nav-link.completed:hover {
+    color: #c3e6cb;
+}
+
+/*#tasks {
+    max-width: 400px;
+    overflow-x: auto;
+}
+
+#tasks .task-select {
+    width: 45px;
+    height: 45px;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+    line-height: 45px;
+    box-shadow: 2px 2px 2px 2px #44a3c0;
+}*/
+
+.navbar-nav .nav-link i.fa-check {
+    margin-right: 5px;
+}
+
+.w-20 {
+    width: 20% !important;
+}
+
+.bg-purple {
+    background-color: #2072b9 !important;
+}
+
+.bg-purple:hover, .bg-purple:active, .bg-purple.active {
+    background-color: #32b2e7 !important;
+}
+
+.bg-danger.active {
+    background-color: #bd2130!important;
+}
+
+.bg-success.active {
+    background-color: #1e7e34!important;
+}
+
+.order-13 {
+    -webkit-box-ordinal-group: 14;
+    -ms-flex-order: 13;
+    order: 13;
+}
+
+.order-14 {
+    -webkit-box-ordinal-group: 15;
+    -ms-flex-order: 14;
+    order: 14;
+}
+
+.order-15 {
+    -webkit-box-ordinal-group: 16;
+    -ms-flex-order: 15;
+    order: 15;
+}
+
+.order-16 {
+    -webkit-box-ordinal-group: 17;
+    -ms-flex-order: 16;
+    order: 16;
+}
+
+.order-17 {
+    -webkit-box-ordinal-group: 18;
+    -ms-flex-order: 17;
+    order: 17;
+}
+
+.order-18 {
+    -webkit-box-ordinal-group: 19;
+    -ms-flex-order: 18;
+    order: 18;
+}
+
+.order-19 {
+    -webkit-box-ordinal-group: 20;
+    -ms-flex-order: 19;
+    order: 19;
+}
+
+.order-20 {
+    -webkit-box-ordinal-group: 21;
+    -ms-flex-order: 20;
+    order: 20;
+}
+
+.order-21 {
+    -webkit-box-ordinal-group: 22;
+    -ms-flex-order: 21;
+    order: 21;
+}
+
+.order-22 {
+    -webkit-box-ordinal-group: 23;
+    -ms-flex-order: 22;
+    order: 22;
+}
+
+.order-23 {
+    -webkit-box-ordinal-group: 24;
+    -ms-flex-order: 23;
+    order: 23;
+}
+
+.order-24 {
+    -webkit-box-ordinal-group: 25;
+    -ms-flex-order: 24;
+    order: 24;
+}
+
+/*.text-danger {
+    color: #F58220 !important;
+}
+*/
+/*button[type="submit"] {
+    background-color: #F58220;
+    border-color: #F58220;
+}*/
+
+/*button[type="submit"]:hover,
+button:not(:disabled):not(.disabled)[type="submit"]:active,
+button:not(:disabled):not(.disabled)[type="submit"]:focus {
+    background-color: #006A5F;
+    border-color: #006A5F;
+}*/
+
+@media (min-width: 768px) {
+    .your-clock-wrapper {
+        margin-top: 15px;
+    }
+
+    .your-clock.flip-clock-wrapper {
+        margin: 0;
+    }
+}
